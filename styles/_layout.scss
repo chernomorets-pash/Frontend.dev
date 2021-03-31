@@ -1,0 +1,33 @@
+.page {
+    height: 100vh;
+    background: $color-gradient-bg;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.app {
+    width: 80%;
+    height: 80%;
+    max-width: 1100px;
+    max-height: 700px;
+    min-height: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.249);
+    border-radius: 1em;
+    background: $color-gradient-prime;
+}
+.nav {
+    width: 200px;
+    border: 1px solid rgba(191, 191, 191, 0.091);
+    border-radius: 1em;
+    height: 80%;
+    margin: 5% 0;
+    background-color: rgba(255, 255, 255, 0.16);
+    position: relative;
+}
+.nav__list {
+    margin-top: 1rem;
+}
+.nav__link {
+    color: #fff;
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
+}

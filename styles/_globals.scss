@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-jc-c-ai-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
